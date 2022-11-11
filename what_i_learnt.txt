@@ -1,0 +1,44 @@
+//to configure git on your pc
+
+1)git config --global user.name "Your_name_goes_here" --> to configure user name
+
+2)git config --global user.email "Your_mail_goes_here" --> to configure user gmail
+
+3)git config --global --edit --> to edit user name and user gmail
+
+
+//steps to create git repo
+
+1)git init --> to initialize empty git repository
+
+ls --> shows all the files inside a folder
+ls -a --> shows all the files including hidden files inside a folder
+
+2)git status --> lists all the changes inside a repository
+
+3)git add <file_name> --> to add a file into staging area and to track changes
+staging area is a place where we save the changes before we commit the changes
+
+4)git commit -m "commit_message_goes_here" --> to commit the changes from staging area to  repository
+
+5)git log --> shows all the commits that have taken place
+
+//to go back in time ie to go to previous commits
+
+1)git checkout <commit hash code/branch name>
+
+//to create branches
+
+1)git branch <branch_name_goes_here> --> to create new branch
+
+2)git branch --> shows all the branches
+
+3)git checkout <branch_name_goes_here> --> to move form one branch to another
+
+4)git merge <branch_name_goes_here> --> to merge branches
+
+//gitignore
+
+used to ignore files and folder which are not supposed to be pushed to github or tacked by git hub
+
+create a file named .gitignore and add all the names of the files that you wish to ignore
